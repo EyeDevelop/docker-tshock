@@ -6,7 +6,7 @@ mkdir -p /data/worlds
 # Create a user if not done already.
 if ! grep "abc" /etc/passwd; then
     groupadd --gid "$PGID" abc
-    useradd -M -G abc --uid "$PUID" abc
+    useradd -M --gid "$PGID" --uid "$PUID" abc
 fi
 
 # Download TShock if not done already.
