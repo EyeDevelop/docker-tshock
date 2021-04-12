@@ -29,4 +29,5 @@ chown -R abc:abc /conf
 chown -R abc:abc /data
 
 # Start TShock
+cd /data
 su-exec abc mono --server --gc=sgen -O=all /data/TerrariaServer.exe -config /conf/server_config.cfg
