@@ -14,7 +14,7 @@ if [[ ! -f "/data/.tshock-installed" ]]; then
     touch /data/.tshock-installed
 
     echo "[!] TShock not found. Downloading and installing..."
-    curl -Lo /tmp/tshock.zip "https://github.com/Pryaxis/TShock/releases/download/v4.5.0/TShock4.5.0_Terraria1.4.2.1.zip"
+    curl -Lo /tmp/tshock.zip "https://github.com/Pryaxis/TShock/releases/download/v4.5.2/TShock.4.5.2.Terraria.1.4.2.2a.zip"
     unzip /tmp/tshock.zip -d /data
 fi
 
